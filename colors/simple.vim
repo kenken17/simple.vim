@@ -7,21 +7,21 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="simple.vim"
+let g:colors_name="simple"
 
 
 let Italic = ""
-if exists('g:simple.vim_italic')
+if exists('g:simple_italic')
   let Italic = "italic"
 endif
-let g:simple.vim_italic = get(g:, 'simple.vim_italic', 0)
+let g:simple_italic = get(g:, 'simple_italic', 0)
 
 let Bold = ""
-if exists('g:simple.vim_bold')
+if exists('g:simple_bold')
   let Bold = "bold"
 endif
 
-let g:simple.vim_bold = get(g:, '_bold', 0)
+let g:simple_bold = get(g:, '_bold', 0)
 
   hi ColorColumn guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
   hi Cursor guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
