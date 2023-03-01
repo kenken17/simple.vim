@@ -2,7 +2,7 @@ name: 'simple.vim'
 version: '1.0.0'
 license: 'MIT'
 author: 'kenken17@gmail.com'
-url: ''
+url: 'https://github.com/kenken17/simple.vim.git'
 description: 'A really simple colorscheme for vim'
 colorschemes:
 - name: 'simple.vim'

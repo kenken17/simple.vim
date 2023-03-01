@@ -1,5 +1,5 @@
 ""
-" Colorscheme: " Author: kenken17@gmail.com" License: MIT""
+" Colorscheme: " URL: https://github.com/kenken17/simple.vim.git" Author: kenken17@gmail.com" License: MIT""
 
 set background=dark
 hi clear
