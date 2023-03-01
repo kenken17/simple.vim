@@ -1,0 +1,82 @@
+# BASE UI
+ColorColumn: '- color_column'
+Conceal: ''
+Cursor: 'color_highlight -'
+CursorIM: ''
+CursorColumn: 'color_lvl_5 color_lvl_0'
+CursorLine: '- -'
+CursorLineNr: 'color_highlight -'
+Directory: 'color_lvl_2 -'
+DiffAdd: 'color_lvl_0 color_highlight'
+DiffChange: 'color_lvl_4 -'
+DiffDelete: 'color_lvl_4 color_error'
+DiffText: 'color_lvl_0 color_highlight'
+ErrorMsg: 'color_error -'
+VertSplit: 'color_lvl_0 -'
+Folded: 'color_lvl_2 color_lvl_0'
+FoldColumn: 'color_lvl_2 color_lvl_0'
+SignColumn: 'color_lvl_0 color_lvl_1'
+IncSearch: 'color_highlight color_bg'
+LineNr: 'color_lvl_1 -'
+MatchParen: 'color_lvl_4 color_lvl_0'
+ModeMsg: 'color_lvl_3 -'
+MoreMsg: 'color_lvl_3 -'
+NonText: 'color_lvl_3 -'
+Normal: 'color_fg -'
+PMenu: 'color_lvl_2 color_lvl_0'
+PMenuSel: '- color_lvl_4'
+PmenuSbar: 'color_fg color_lvl_1'
+PmenuThumb: 'color_fg color_lvl_4'
+Question: 'color_lvl_3 -'
+Search: 'color_lvl_5 color_lvl_1'
+SpecialKey: 'color_lvl_3 -'
+SpellBad: '- color_error'
+SpellLocal: '- color_error'
+SpellCap: '- color_error'
+SpellRare: '- color_error'
+StatusLine: ''
+StatusLineNC: ''
+TabLine: 'color_lvl_2 -'
+TabLineFill: 'color_fg -'
+TabLineSel: 'color_lvl_0 color_highlight'
+Title: 'color_fg -'
+Visual: 'color_lvl_0 color_selection'
+VisualNOS: 'color_lvl_0 color_selection'
+WarningMsg: 'color_error -'
+WildMenu: 'color_lvl_0 color_highlight'
+# BASE SYNTAX
+Comment: 'color_comment -'
+Constant: 'color_lvl_4 -'
+String: '' # Constant
+Character: '' # Constant
+Boolean: '' # Constant
+Number: '' # Constant
+Float: '' # Constant
+Identifier: 'color_lvl_1 -'
+Function: '' # Identifier
+Statement: 'color_lvl_1 -'
+Conditional: '' # Statement
+Repeat: '' # Statement
+Label: '' # Statement
+Operator: '' # Statement
+Keyword: '' # Statement
+Exception: 'color_highlight -' # Statement
+PreProc: 'color_highlight -'
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: 'color_lvl_2 -'
+StorageClass: '' # Type
+Structure: '' # Type
+Typedef: '' # Type
+Special: 'color_highlight -'
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: ''
+Error: ''
+Todo: ''

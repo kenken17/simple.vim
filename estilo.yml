@@ -1,0 +1,10 @@
+name: 'simple.vim'
+version: '1.0.0'
+license: 'MIT'
+author: 'kenken17@gmail.com'
+url: ''
+description: 'A really simple colorscheme for vim'
+colorschemes:
+- name: 'simple.vim'
+  background: 'dark'
+  palette: 'simple.vim'
