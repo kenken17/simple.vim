@@ -103,6 +103,18 @@ NERDTreeLinkDir: 'color_lvl_5 -'
 NERDTreeLinkFile: 'color_lvl_5 -'
 NERDTreeOpenable: 'color_lvl_5 -'
 
+# Agit
+agitDiffAdd: 'color_highlight -'
+agitDiffFileName: 'color_lvl_4 -'
+agitDiffHeader: 'color_lvl_0 color_selection'
+agitDiffRemove: 'color_error -'
+agitHead: 'color_error color_lvl_5'
+agitRef: 'color_highlight -'
+agitRemote: 'color_lvl_4 -'
+agitStatAdded: 'color_highlight -'
+agitStatRemoved: 'color_error -'
+agitTag: 'color_lvl_4 -'
+
 # COC
 CocListLine: 'color_lvl_0 color_selection'
 CocListSearch: 'color_highlight -'
