@@ -83,7 +83,7 @@ Todo: ''
 
 # mhinz/vim-startify
 # StartifyBracket: ''
-StartifyFile: 'color_highlight -'
+StartifyFile: 'color_lvl_4 -'
 # StartifyFooter: ''
 # StartifyHeader: ''
 # StartifyNumber: ''
@@ -92,7 +92,7 @@ StartifyPath: 'color_lvl_1 -'
 # StartifySlash: ''
 # StartifySpecial: ''
 # StartifyVar: ''
-startifySection: 'color_lvl_4 -'
+startifySection: 'color_lvl_2 -'
 
 # tpope/vim-fugitive
 fugitiveHash: 'color_lvl_4 -'
