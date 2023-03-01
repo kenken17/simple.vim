@@ -37,7 +37,7 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi VertSplit guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#a8a8a8 ctermfg=248 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
   hi FoldColumn guifg=#a8a8a8 ctermfg=248 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
-  hi SignColumn guifg=#3a3a3a ctermfg=237 guibg=#808080 ctermbg=8 gui=NONE cterm=NONE
+  hi SignColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi IncSearch guifg=#afd700 ctermfg=148 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
   hi LineNr guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi MatchParen guifg=#eeeeee ctermfg=255 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
