@@ -81,6 +81,9 @@ Ignore: ''
 Error: ''
 Todo: ''
 
+# mhinz/vim-startify
+startifySection: 'color_highlight -'
+
 # tpope/vim-fugitive
 fugitiveHash: 'color_lvl_4 -'
 fugitiveHelpTag: 'color_fg -'
