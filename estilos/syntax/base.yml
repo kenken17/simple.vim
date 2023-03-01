@@ -82,7 +82,17 @@ Error: ''
 Todo: ''
 
 # mhinz/vim-startify
-startifySection: 'color_highlight -'
+# StartifyBracket: ''
+StartifyFile: 'color_highlight -'
+# StartifyFooter: ''
+# StartifyHeader: ''
+# StartifyNumber: ''
+StartifyPath: 'color_lvl_1 -'
+# StartifySelect: ''
+# StartifySlash: ''
+# StartifySpecial: ''
+# StartifyVar: ''
+startifySection: 'color_lvl_4 -'
 
 # tpope/vim-fugitive
 fugitiveHash: 'color_lvl_4 -'
