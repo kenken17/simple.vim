@@ -88,4 +88,7 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi NERDTreeLinkDir guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NERDTreeLinkFile guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NERDTreeOpenable guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocListLine guifg=#3a3a3a ctermfg=237 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
+  hi CocListSearch guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocMenuSel guifg=#afd700 ctermfg=148 guibg=#808080 ctermbg=8 gui=NONE cterm=NONE
 

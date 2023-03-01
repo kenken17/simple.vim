@@ -102,3 +102,8 @@ NERDTreeDirSlash: 'color_highlight -'
 NERDTreeLinkDir: 'color_lvl_5 -'
 NERDTreeLinkFile: 'color_lvl_5 -'
 NERDTreeOpenable: 'color_lvl_5 -'
+
+# COC
+CocListLine: 'color_lvl_0 color_selection'
+CocListSearch: 'color_highlight -'
+CocMenuSel: 'color_highlight color_lvl_1'
