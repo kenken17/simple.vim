@@ -72,4 +72,11 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi PreProc guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Type guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Special guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NERDTreeCWD guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NERDTreeClosable guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NERDTreeDir guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NERDTreeDirSlash guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NERDTreeLinkDir guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NERDTreeLinkFile guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NERDTreeOpenable guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 

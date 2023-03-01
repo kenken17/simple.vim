@@ -80,3 +80,12 @@ Underlined: ''
 Ignore: ''
 Error: ''
 Todo: ''
+
+#NERDTree
+NERDTreeCWD: 'color_error -'
+NERDTreeClosable: 'color_lvl_5 -'
+NERDTreeDir: 'color_lvl_3 -'
+NERDTreeDirSlash: 'color_highlight -'
+NERDTreeLinkDir: 'color_lvl_5 -'
+NERDTreeLinkFile: 'color_lvl_5 -'
+NERDTreeOpenable: 'color_lvl_5 -'
