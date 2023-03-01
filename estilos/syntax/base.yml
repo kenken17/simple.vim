@@ -81,6 +81,16 @@ Ignore: ''
 Error: ''
 Todo: ''
 
+# tpope/vim-fugitive
+fugitiveHash: 'color_lvl_4 -'
+fugitiveHelpTag: 'color_fg -'
+fugitiveStagedModifier: 'color_lvl_3 -'
+fugitiveSymbolicRef: 'color_highlight -'
+fugitiveUnstagedHeading: 'color_error -'
+fugitiveUnstagedModifier: 'color_lvl_3 -'
+fugitiveUntrackedHeading: 'color_error -'
+fugitiveUntrackedModifier: 'color_lvl_3 -'
+
 #NERDTree
 NERDTreeCWD: 'color_error -'
 NERDTreeClosable: 'color_lvl_5 -'
