@@ -84,8 +84,8 @@ Todo: ''
 # Treesitter
 # Misc
 TSError: ''
-TSPunctBracket: ''
-TSPunctDelimiter: ''
+TSPunctBracket: 'color_highlight -'
+TSPunctDelimiter: 'color_highlight -'
 TSPunctSpecial: ''
 # Constants
 TSAnnotation: ''
