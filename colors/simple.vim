@@ -44,11 +44,11 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi ModeMsg guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi MoreMsg guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NonText guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Normal guifg=#949494 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Normal guifg=#f3ffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi PMenu guifg=#a8a8a8 ctermfg=248 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
   hi PMenuSel guifg=NONE ctermfg=NONE guibg=#eeeeee ctermbg=255 gui=NONE cterm=NONE
-  hi PmenuSbar guifg=#949494 ctermfg=246 guibg=#808080 ctermbg=8 gui=NONE cterm=NONE
-  hi PmenuThumb guifg=#949494 ctermfg=246 guibg=#eeeeee ctermbg=255 gui=NONE cterm=NONE
+  hi PmenuSbar guifg=#f3ffd7 ctermfg=230 guibg=#808080 ctermbg=8 gui=NONE cterm=NONE
+  hi PmenuThumb guifg=#f3ffd7 ctermfg=230 guibg=#eeeeee ctermbg=255 gui=NONE cterm=NONE
   hi Question guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Search guifg=#ffffff ctermfg=15 guibg=#808080 ctermbg=8 gui=NONE cterm=NONE
   hi SpecialKey guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -57,9 +57,9 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi SpellCap guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi SpellRare guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi TabLine guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi TabLineFill guifg=#949494 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi TabLineFill guifg=#f3ffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi TabLineSel guifg=#3a3a3a ctermfg=237 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
-  hi Title guifg=#949494 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Title guifg=#f3ffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Visual guifg=#3a3a3a ctermfg=237 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
   hi VisualNOS guifg=#3a3a3a ctermfg=237 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
   hi WarningMsg guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -78,7 +78,7 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi StartifyPath guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi startifySection guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveHash guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi fugitiveHelpTag guifg=#949494 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi fugitiveHelpTag guifg=#f3ffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveStagedModifier guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveSymbolicRef guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveUnstagedHeading guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
