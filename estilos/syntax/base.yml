@@ -177,6 +177,9 @@ fugitiveUnstagedHeading: 'color_error -'
 fugitiveUnstagedModifier: 'color_lvl_3 -'
 fugitiveUntrackedHeading: 'color_error -'
 fugitiveUntrackedModifier: 'color_lvl_3 -'
+diffRemoved: 'color_error -'
+diffAdded: 'color_highlight -'
+diffChanged: 'color_lvl_4 -'
 
 #NERDTree
 NERDTreeCWD: 'color_error -'
