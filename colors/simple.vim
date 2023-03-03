@@ -50,6 +50,7 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi PmenuSbar guifg=#949494 ctermfg=246 guibg=#808080 ctermbg=8 gui=NONE cterm=NONE
   hi PmenuThumb guifg=#949494 ctermfg=246 guibg=#eeeeee ctermbg=255 gui=NONE cterm=NONE
   hi Question guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi QuickFixLine guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Search guifg=#ffffff ctermfg=15 guibg=#808080 ctermbg=8 gui=NONE cterm=NONE
   hi SpecialKey guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
@@ -106,7 +107,6 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi link @label Label
   hi @method guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi @method.call guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi @namespace guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi link @number Number
   hi link @operator Operator
   hi link @parameter Type
@@ -116,7 +116,7 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi @punctuation.bracket guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi @punctuation.delimiter guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @punctuation.special Delimiter
-  hi @repeat guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+  hi link @repeat Conditional
   hi @storageclass guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi link @string String
   hi @string.escape guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -185,4 +185,6 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi CocSearch guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SpelunkerSpellBad guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi SpelunkerComplexOrCompoundWord guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+  hi qfFileName guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi qfLineNr guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
