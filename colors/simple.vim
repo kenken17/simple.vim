@@ -84,6 +84,7 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi link @exception Exception
   hi @field guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @function Function
+  hi @function.call guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @include Include
   hi link @keyword Keyword
   hi link @keyword.function Keyword
