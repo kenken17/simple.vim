@@ -102,6 +102,9 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi @tag.attribute guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @tag.delimiter Delimiter
   hi link @text.todo Todo
+  hi @text.underline guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @text.uri guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @text.warning guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @type Type
   hi @variable guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi StartifyBracket guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
