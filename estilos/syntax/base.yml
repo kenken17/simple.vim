@@ -77,16 +77,17 @@ Tag: "color_lvl_1 -" # Special
 Delimiter: "color_lvl_2 -" # Special
 SpecialComment: "" # Special
 Debug: "" # Special
-Underlined: ""
+Underlined: "color_highlight - u"
 Ignore: ""
 Error: ""
 Todo: "color_highlight -"
 
 # Nvim
 FloatTitle: "color_lvl_4 -"
+NormalFloat: 'color_lvl_3 color_bg'
 
 # Dressing
-FloatBorder: "color_lvl_3 color_lvl_0"
+FloatBorder: "color_lvl_3 color_bg"
 
 # Treesitter
 "@annotation": "- color_error"
@@ -233,3 +234,20 @@ qfLineNr: "color_highlight -"
 
 # Telescope
 TelescopeSelection: "color_lvl_4 color_lvl_0"
+
+# Mason
+MasonNormal: 'color_lvl_4 color_bg'
+MasonHeader: 'color_highlight -'
+MasonHeaderSecondary: 'color_highlight -'
+MasonHighlight: 'color_highlight -' 
+MasonHighlightBlock: 'color_bg color_selection'
+MasonHighlightBlockBold: 'color_bg color_highlight b'
+MasonHighlightSecondary: 'color_highlight -'
+MasonHighlightBlockSecondary: 'color_bg color_selection'
+MasonHighlightBlockBoldSecondary: 'color_bg color_highlight b'
+MasonLink: '- color_lvl_3 u' 
+MasonMuted: ''
+MasonMutedBlock: 'color_bg color_selection'
+MasonMutedBlockBold: 'color_bg color_selection b'
+MasonError: 'color_error -'
+MasonHeading: 'color_highlight -'

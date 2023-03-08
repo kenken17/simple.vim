@@ -78,9 +78,11 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi Special guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Underlined guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi Todo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi FloatTitle guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi FloatBorder guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+  hi NormalFloat guifg=#c6c6c6 ctermfg=251 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
+  hi FloatBorder guifg=#c6c6c6 ctermfg=251 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
   hi @annotation guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi @attribute guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi link @boolean Boolean
@@ -194,4 +196,18 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi qfFileName guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi qfLineNr guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi TelescopeSelection guifg=#eeeeee ctermfg=255 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+  hi MasonNormal guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
+  hi MasonHeader guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi MasonHeaderSecondary guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi MasonHighlight guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi MasonHighlightBlock guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
+  hi MasonHighlightBlockBold guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=Bold cterm=Bold
+  hi MasonHighlightSecondary guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi MasonHighlightBlockSecondary guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
+  hi MasonHighlightBlockBoldSecondary guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=Bold cterm=Bold
+  hi MasonLink guifg=NONE ctermfg=NONE guibg=#c6c6c6 ctermbg=251 gui=underline cterm=underline
+  hi MasonMutedBlock guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
+  hi MasonMutedBlockBold guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=Bold cterm=Bold
+  hi MasonError guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi MasonHeading guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
