@@ -84,7 +84,7 @@ Todo: "color_highlight -"
 
 # Nvim
 FloatTitle: "color_lvl_4 -"
-NormalFloat: 'color_lvl_3 color_bg'
+NormalFloat: "color_lvl_3 color_bg"
 
 # Dressing
 FloatBorder: "color_lvl_3 color_bg"
@@ -236,18 +236,18 @@ qfLineNr: "color_highlight -"
 TelescopeSelection: "color_lvl_4 color_lvl_0"
 
 # Mason
-MasonNormal: 'color_lvl_4 color_bg'
-MasonHeader: 'color_highlight -'
-MasonHeaderSecondary: 'color_highlight -'
-MasonHighlight: 'color_highlight -' 
-MasonHighlightBlock: 'color_bg color_selection'
-MasonHighlightBlockBold: 'color_bg color_highlight b'
-MasonHighlightSecondary: 'color_highlight -'
-MasonHighlightBlockSecondary: 'color_bg color_selection'
-MasonHighlightBlockBoldSecondary: 'color_bg color_highlight b'
-MasonLink: '- color_lvl_3 u' 
-MasonMuted: ''
-MasonMutedBlock: 'color_bg color_selection'
-MasonMutedBlockBold: 'color_bg color_selection b'
-MasonError: 'color_error -'
-MasonHeading: 'color_highlight -'
+MasonNormal: "color_lvl_4 color_bg"
+MasonHeader: "color_highlight -"
+MasonHeaderSecondary: "color_highlight -"
+MasonHighlight: "color_highlight -"
+MasonHighlightBlock: "color_bg color_selection"
+MasonHighlightBlockBold: "color_bg color_highlight b"
+MasonHighlightSecondary: "color_highlight -"
+MasonHighlightBlockSecondary: "color_bg color_selection"
+MasonHighlightBlockBoldSecondary: "color_bg color_highlight b"
+MasonLink: "- color_lvl_3 u"
+MasonMuted: ""
+MasonMutedBlock: "color_bg color_selection"
+MasonMutedBlockBold: "color_bg color_selection b"
+MasonError: "color_error -"
+MasonHeading: "color_highlight -"
