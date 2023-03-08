@@ -1,224 +1,235 @@
 # BASE UI
-ColorColumn: '- color_column'
-Conceal: ''
-Cursor: 'color_highlight -'
-CursorIM: ''
-CursorColumn: 'color_lvl_5 color_lvl_0'
-CursorLine: '- - u'
-CursorLineNr: 'color_highlight -'
-Directory: 'color_lvl_2 -'
-DiffAdd: 'color_bg color_highlight'
-DiffChange: 'color_lvl_4 -'
-DiffDelete: 'color_lvl_4 color_error'
-DiffText: 'color_bg color_highlight'
-ErrorMsg: 'color_error -'
-VertSplit: 'color_lvl_0 -'
-Folded: 'color_lvl_2 color_lvl_0'
-FoldColumn: 'color_lvl_2 color_lvl_0'
-SignColumn: '- -'
-IncSearch: 'color_bg color_highlight'
-LineNr: 'color_lvl_1 -'
-MatchParen: 'color_lvl_4 color_lvl_0'
-ModeMsg: 'color_lvl_3 -'
-MoreMsg: 'color_lvl_3 -'
-NonText: 'color_lvl_3 -'
-Normal: 'color_fg -'
-PMenu: 'color_lvl_3 color_lvl_0'
-PMenuSel: 'color_bg color_highlight'
-PmenuSbar: 'color_fg color_lvl_1'
-PmenuThumb: 'color_fg color_lvl_4'
-Question: 'color_lvl_3 -'
-QuickFixLine: '- -'
-Search: 'color_lvl_5 color_lvl_1'
-SpecialKey: 'color_lvl_3 -'
-SpellBad: '- color_error'
-SpellLocal: '- color_error'
-SpellCap: '- color_error'
-SpellRare: '- color_error'
-StatusLine: ''
-StatusLineNC: ''
-TabLine: 'color_lvl_2 -'
-TabLineFill: 'color_fg -'
-TabLineSel: 'color_bg color_highlight'
-Title: 'color_fg -'
-Visual: 'color_lvl_0 color_selection'
-VisualNOS: 'color_lvl_0 color_selection'
-WarningMsg: 'color_error -'
-WildMenu: 'color_bg color_highlight'
+ColorColumn: "- color_column"
+Conceal: ""
+Cursor: "color_highlight -"
+CursorIM: ""
+CursorColumn: "color_lvl_5 color_lvl_0"
+CursorLine: "- - u"
+CursorLineNr: "color_highlight -"
+Directory: "color_lvl_2 -"
+DiffAdd: "color_bg color_highlight"
+DiffChange: "color_lvl_4 -"
+DiffDelete: "color_lvl_4 color_error"
+DiffText: "color_bg color_highlight"
+ErrorMsg: "color_error -"
+VertSplit: "color_lvl_0 -"
+Folded: "color_lvl_2 color_lvl_0"
+FoldColumn: "color_lvl_2 color_lvl_0"
+SignColumn: "- -"
+IncSearch: "color_bg color_highlight"
+LineNr: "color_lvl_1 -"
+MatchParen: "color_lvl_4 color_lvl_0"
+ModeMsg: "color_lvl_3 -"
+MoreMsg: "color_lvl_3 -"
+NonText: "color_lvl_3 -"
+Normal: "color_fg -"
+PMenu: "color_lvl_3 color_lvl_0"
+PMenuSel: "color_bg color_highlight"
+PmenuSbar: "color_fg color_lvl_1"
+PmenuThumb: "color_fg color_lvl_4"
+Question: "color_lvl_3 -"
+QuickFixLine: "- -"
+Search: "color_lvl_5 color_lvl_1"
+SpecialKey: "color_lvl_3 -"
+SpellBad: "- color_error"
+SpellLocal: "- color_error"
+SpellCap: "- color_error"
+SpellRare: "- color_error"
+StatusLine: ""
+StatusLineNC: ""
+TabLine: "color_lvl_2 -"
+TabLineFill: "color_fg -"
+TabLineSel: "color_bg color_highlight"
+Title: "color_fg -"
+Visual: "color_lvl_0 color_selection"
+VisualNOS: "color_lvl_0 color_selection"
+WarningMsg: "color_error -"
+WildMenu: "color_bg color_highlight"
 # BASE SYNTAX
-Comment: 'color_comment -'
-Constant: 'color_lvl_4 -'
-String: '' # Constant
-Character: '' # Constant
-Boolean: '' # Constant
-Number: '' # Constant
-Float: '' # Constant
-Identifier: 'color_lvl_4 -'
-Function: '' # Identifier
-Statement: 'color_lvl_1 -'
-Conditional: '' # Statement
-Repeat: '' # Statement
-Label: 'color_lvl_2 -' # Statement
-Operator: 'color_lvl_4 -' # Statement
-Keyword: 'color_lvl_3 -' # Statement
-Exception: 'color_highlight -' # Statement
-PreProc: 'color_highlight -'
-Include: '' # PreProc
-Define: '' # PreProc
-Macro: '' # PreProc
-PreCondit: '' # PreProc
-Type: 'color_lvl_2 -'
-StorageClass: '' # Type
-Structure: '' # Type
-Typedef: '' # Type
-Special: 'color_highlight -'
-SpecialChar: '' # Special
-Tag: 'color_lvl_1 -' # Special
-Delimiter: 'color_lvl_2 -' # Special
-SpecialComment: '' # Special
-Debug: '' # Special
-Underlined: ''
-Ignore: ''
-Error: ''
-Todo: 'color_highlight -'
+Comment: "color_comment -"
+Constant: "color_lvl_4 -"
+String: "" # Constant
+Character: "" # Constant
+Boolean: "" # Constant
+Number: "" # Constant
+Float: "" # Constant
+Identifier: "color_lvl_4 -"
+Function: "" # Identifier
+Statement: "color_lvl_1 -"
+Conditional: "" # Statement
+Repeat: "" # Statement
+Label: "color_highlight -" # Statement
+Operator: "color_lvl_2 -" # Statement
+Keyword: "color_lvl_1 -" # Statement
+Exception: "color_highlight -" # Statement
+PreProc: "color_highlight -"
+Include: "" # PreProc
+Define: "" # PreProc
+Macro: "" # PreProc
+PreCondit: "" # PreProc
+Type: "color_lvl_2 -"
+StorageClass: "" # Type
+Structure: "" # Type
+Typedef: "" # Type
+Special: "color_highlight -"
+SpecialChar: "" # Special
+Tag: "color_lvl_1 -" # Special
+Delimiter: "color_lvl_2 -" # Special
+SpecialComment: "" # Special
+Debug: "" # Special
+Underlined: ""
+Ignore: ""
+Error: ""
+Todo: "color_highlight -"
+
+# Nvim
+FloatTitle: "color_lvl_4 -"
+
+# Dressing
+FloatBorder: "color_lvl_3 color_lvl_0"
 
 # Treesitter
-'@annotation': '- color_error'
-'@attribute': '- color_error'
-'@boolean': '@Boolean'
-'@character': '- color_error'
-'@character.special': '- color_error'
-'@comment': '@Comment'
-'@conditional': '@Conditional'
-'@constant': '@Constant'
-'@constant.builtin': '@Constant'
-'@constant.macro': '- color_error'
-'@constructor': 'color_lvl_4 -'
-'@debug': '- color_error'
-'@define': '- color_error'
-'@exception': '@Exception'
-'@field': 'color_highlight -'
-'@float': '- color_error'
-'@function': '@Function'
-'@function.builtin': '@Function'
-'@function.call': 'color_highlight_dim -'
-'@function.macro': '@Macro'
-'@include': '@Include'
-'@keyword': '@Keyword'
-'@keyword.function': '@Keyword'
-'@keyword.operator': '@Operator'
-'@keyword.return': '@Keyword'
-'@label': '@Label'
-'@method': 'color_highlight_dim -'
-'@method.call': 'color_lvl_4 -'
-'@namespace': ''
-'@none': ''
-'@number': '@Number'
-'@operator': '@Operator'
-'@parameter': '@Type'
-'@parameter.reference': '- color_error'
-'@preproc': '@PreProc'
-'@property': 'color_highlight -'
-'@punctuation.bracket': 'color_lvl_2 -'
-'@punctuation.delimiter': 'color_lvl_2 -'
-'@punctuation.special': '@Delimiter'
-'@repeat': '@Conditional'
-'@spell': ''
-'@storageclass': '- color_error'
-'@string': '@String'
-'@string.escape': 'color_highlight_dim -'
-'@string.regex': 'color_highlight_dim -'
-'@string.special': '@String'
-'@symbol': '- color_error'
-'@tag': '@Tag'
-'@tag.attribute': 'color_highlight -'
-'@tag.delimiter': '@Delimiter'
-'@text': ''
-'@text.danger': '- color_error'
-'@text.emphasis': '- color_error'
-'@text.environment': '- color_error'
-'@text.environment.name': '- color_error'
-'@text.literal': 'color_fg -'
-'@text.math': '- color_error'
-'@text.note': '- color_error'
-'@text.reference': ''
-'@text.strike': '- color_error'
-'@text.strong': '- color_error'
-'@text.title': '@Title'
-'@text.todo': '@Todo'
-'@text.underline': 'color_lvl_4 -'
-'@text.uri': 'color_highlight -'
-'@text.warning': 'color_error -'
-'@type': '@Type'
-'@type.builtin': '@Type'
-'@type.definition': '- color_error'
-'@type.qualifier': '- color_error'
-'@variable': 'color_lvl_1 -'
-'@variable.builtin': 'color_lvl_1 -'
+"@annotation": "- color_error"
+"@attribute": "- color_error"
+"@boolean": "@Boolean"
+"@character": "- color_error"
+"@character.special": "- color_error"
+"@comment": "@Comment"
+"@conditional": "@Conditional"
+"@constant": "@Constant"
+"@constant.builtin": "@Constant"
+"@constant.macro": "- color_error"
+"@constructor": "color_lvl_4 -"
+"@debug": "- color_error"
+"@define": "- color_error"
+"@exception": "@Exception"
+"@field": "color_highlight -"
+"@float": "@Float"
+"@function": "@Function"
+"@function.builtin": "@Function"
+"@function.call": "color_lvl_5 -"
+"@function.macro": "@Macro"
+"@include": "@Include"
+"@keyword": "@Keyword"
+"@keyword.function": "@Keyword"
+"@keyword.operator": "@Operator"
+"@keyword.return": "color_lvl_3 -"
+"@label": "@Label"
+"@method": "color_highlight -"
+"@method.call": "color_lvl_5 -"
+"@namespace": ""
+"@none": ""
+"@number": "@Number"
+"@operator": "@Operator"
+"@parameter": "@Type"
+"@parameter.reference": "- color_error"
+"@preproc": "@PreProc"
+"@property": "color_highlight -"
+"@punctuation.bracket": "color_lvl_2 -"
+"@punctuation.delimiter": "color_lvl_2 -"
+"@punctuation.special": "@Delimiter"
+"@repeat": "@Conditional"
+"@spell": ""
+"@storageclass": "- color_error"
+"@string": "@String"
+"@string.escape": "color_highlight_dim -"
+"@string.regex": "color_highlight_dim -"
+"@string.special": "@String"
+"@symbol": "- color_error"
+"@tag": "@Tag"
+"@tag.attribute": "color_highlight -"
+"@tag.delimiter": "@Delimiter"
+"@text": ""
+"@text.danger": "- color_error"
+"@text.emphasis": "- color_error"
+"@text.environment": "- color_error"
+"@text.environment.name": "- color_error"
+"@text.literal": "color_fg -"
+"@text.math": "- color_error"
+"@text.note": "- color_error"
+"@text.reference": ""
+"@text.strike": "- color_error"
+"@text.strong": "- color_error"
+"@text.title": "@Title"
+"@text.todo": "@Todo"
+"@text.underline": "color_lvl_4 -"
+"@text.uri": "color_highlight -"
+"@text.warning": "color_error -"
+"@type": "@Type"
+"@type.builtin": "@Type"
+"@type.definition": "- color_error"
+"@type.qualifier": "- color_error"
+"@variable": "color_lvl_1 -"
+"@variable.builtin": "color_lvl_1 -"
 
 # mhinz/vim-startify
-StartifyBracket: 'color_highlight -'
-StartifyFile: 'color_lvl_4 -'
+StartifyBracket: "color_highlight -"
+StartifyFile: "color_lvl_4 -"
 # StartifyFooter: ''
 # StartifyHeader: ''
 # StartifyNumber: ''
-StartifyPath: 'color_lvl_2 -'
+StartifyPath: "color_lvl_2 -"
 # StartifySelect: ''
-StartifySlash: 'color_highlight -'
+StartifySlash: "color_highlight -"
 # StartifySpecial: ''
 # StartifyVar: ''
-startifySection: 'color_lvl_2 -'
+startifySection: "color_lvl_2 -"
 
 # tpope/vim-fugitive
-fugitiveHash: 'color_lvl_4 -'
-fugitiveHelpTag: 'color_fg -'
-fugitiveStagedModifier: 'color_lvl_3 -'
-fugitiveSymbolicRef: 'color_highlight -'
-fugitiveUnstagedHeading: 'color_error -'
-fugitiveUnstagedModifier: 'color_lvl_3 -'
-fugitiveUntrackedHeading: 'color_error -'
-fugitiveUntrackedModifier: 'color_lvl_3 -'
-diffRemoved: 'color_error -'
-diffAdded: 'color_highlight -'
-diffChanged: 'color_lvl_4 -'
+fugitiveCount: ""
+fugitiveHash: "color_lvl_4 -"
+fugitiveHeader: "@Label"
+fugitiveHelpTag: "color_fg -"
+fugitiveSection: ""
+fugitiveStagedModifier: "color_lvl_3 -"
+fugitiveStagedSection: ""
+fugitiveSymbolicRef: "color_lvl_4 -"
+fugitiveUnstagedHeading: "color_error -"
+fugitiveUnstagedModifier: "color_lvl_4 -"
+fugitiveUnstagedSection: ""
+fugitiveUntrackedHeading: "color_error -"
+fugitiveUntrackedModifier: "color_lvl_4 -"
+diffRemoved: "color_error -"
+diffAdded: "color_highlight -"
+diffChanged: "color_lvl_4 -"
 
 #NERDTree
-NERDTreeCWD: 'color_lvl_2 -'
-NERDTreeClosable: 'color_highlight -'
-NERDTreeDir: 'color_lvl_2 -'
-NERDTreeDirSlash: 'color_highlight -'
-NERDTreeExecFile: 'color_highlight -'
-NERDTreeFile: 'color_lvl_4 -'
-NERDTreeLinkDir: 'color_lvl_3 -'
-NERDTreeLinkFile: 'color_lvl_1 -'
-NERDTreeLinkTarget: 'color_highlight -'
-NERDTreeOpenable: 'color_lvl_2 -'
+NERDTreeCWD: "color_lvl_2 -"
+NERDTreeClosable: "color_highlight -"
+NERDTreeDir: "color_lvl_2 -"
+NERDTreeDirSlash: "color_highlight -"
+NERDTreeExecFile: "color_highlight -"
+NERDTreeFile: "color_lvl_4 -"
+NERDTreeLinkDir: "color_lvl_3 -"
+NERDTreeLinkFile: "color_lvl_1 -"
+NERDTreeLinkTarget: "color_highlight -"
+NERDTreeOpenable: "color_lvl_2 -"
 
 # Agit
-agitDiffAdd: 'color_highlight -'
-agitDiffFileName: 'color_lvl_4 -'
-agitDiffHeader: 'color_lvl_0 color_selection'
-agitDiffRemove: 'color_error -'
-agitHead: 'color_error color_lvl_5'
-agitRef: 'color_highlight -'
-agitRemote: 'color_lvl_4 -'
-agitStatAdded: 'color_highlight -'
-agitStatRemoved: 'color_error -'
-agitTag: 'color_lvl_4 -'
+agitDiffAdd: "color_highlight -"
+agitDiffFileName: "color_lvl_4 -"
+agitDiffHeader: "color_lvl_0 color_selection"
+agitDiffRemove: "color_error -"
+agitHead: "color_error color_lvl_5"
+agitRef: "color_highlight -"
+agitRemote: "color_lvl_4 -"
+agitStatAdded: "color_highlight -"
+agitStatRemoved: "color_error -"
+agitTag: "color_lvl_4 -"
 
 # COC
-CocListLine: 'color_lvl_0 color_selection'
-CocListSearch: 'color_highlight -'
-CocMenuSel: 'color_highlight color_lvl_1'
-CocSearch: 'color_highlight -'
+CocListLine: "color_lvl_0 color_selection"
+CocListSearch: "color_highlight -"
+CocMenuSel: "color_highlight color_lvl_1"
+CocSearch: "color_highlight -"
 
 # kamykn/spelunker.vim
-SpelunkerSpellBad: 'color_lvl_5 color_error'
-SpelunkerComplexOrCompoundWord: 'color_lvl_5 color_error'
+SpelunkerSpellBad: "color_lvl_5 color_error"
+SpelunkerComplexOrCompoundWord: "color_lvl_5 color_error"
 
 # qf
-qfFileName: 'color_lvl_4 -'
-qfLineNr: 'color_highlight -'
+qfFileName: "color_lvl_4 -"
+qfLineNr: "color_highlight -"
 
 # Telescope
-TelescopeSelection: 'color_lvl_4 color_lvl_0'
+TelescopeSelection: "color_lvl_4 color_lvl_0"

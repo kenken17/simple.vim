@@ -69,9 +69,9 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi Constant guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Identifier guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Label guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Operator guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Keyword guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Label guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Operator guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Keyword guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Exception guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Type guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -79,6 +79,8 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi Tag guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi FloatTitle guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi FloatBorder guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
   hi @annotation guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi @attribute guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi link @boolean Boolean
@@ -94,19 +96,19 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi @define guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi link @exception Exception
   hi @field guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi @float guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+  hi link @float Float
   hi link @function Function
   hi link @function.builtin Function
-  hi @function.call guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @function.call guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @function.macro Macro
   hi link @include Include
   hi link @keyword Keyword
   hi link @keyword.function Keyword
   hi link @keyword.operator Operator
-  hi link @keyword.return Keyword
+  hi @keyword.return guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @label Label
-  hi @method guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi @method.call guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @method guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @method.call guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @number Number
   hi link @operator Operator
   hi link @parameter Type
@@ -152,13 +154,14 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi StartifySlash guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi startifySection guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveHash guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link fugitiveHeader Label
   hi fugitiveHelpTag guifg=#949494 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveStagedModifier guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi fugitiveSymbolicRef guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi fugitiveSymbolicRef guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveUnstagedHeading guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi fugitiveUnstagedModifier guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi fugitiveUnstagedModifier guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi fugitiveUntrackedHeading guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi fugitiveUntrackedModifier guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi fugitiveUntrackedModifier guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffRemoved guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffAdded guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffChanged guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
