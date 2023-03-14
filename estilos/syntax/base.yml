@@ -47,7 +47,7 @@ WarningMsg: "color_error -"
 WildMenu: "color_bg color_highlight"
 # BASE SYNTAX
 Comment: "color_comment -"
-Constant: "color_lvl_4 -"
+Constant: "color_lvl_4"
 String: "" # Constant
 Character: "" # Constant
 Boolean: "" # Constant
@@ -56,18 +56,18 @@ Float: "" # Constant
 Identifier: "color_lvl_4 -"
 Function: "" # Identifier
 Statement: "color_lvl_1 -"
-Conditional: "" # Statement
+Conditional: "color_lvl_3 -" # Statement
 Repeat: "" # Statement
 Label: "color_highlight -" # Statement
 Operator: "color_lvl_2 -" # Statement
-Keyword: "color_lvl_1 -" # Statement
+Keyword: "color_lvl_2 -" # Statement
 Exception: "color_highlight -" # Statement
 PreProc: "color_highlight -"
 Include: "" # PreProc
 Define: "" # PreProc
 Macro: "" # PreProc
 PreCondit: "" # PreProc
-Type: "color_lvl_2 -"
+Type: "color_lvl_3 -"
 StorageClass: "" # Type
 Structure: "" # Type
 Typedef: "" # Type
@@ -82,16 +82,19 @@ Ignore: ""
 Error: ""
 Todo: "color_highlight -"
 
-# Nvim
+# Nvim/LSP
 FloatTitle: "color_lvl_4 -"
 NormalFloat: "color_lvl_3 color_bg"
+LspReferenceRead: "color_lvl_3 color_lvl_0"
+LspReferenceText: "color_lvl_3 color_lvl_0"
+LspReferenceWrite: "color_lvl_3 color_lvl_0"
 
 # Dressing
 FloatBorder: "color_lvl_3 color_bg"
 
 # Treesitter
 "@annotation": "- color_error"
-"@attribute": "- color_error"
+"@attribute": "color_highlight -"
 "@boolean": "@Boolean"
 "@character": "- color_error"
 "@character.special": "- color_error"
@@ -159,7 +162,7 @@ FloatBorder: "color_lvl_3 color_bg"
 "@type": "@Type"
 "@type.builtin": "@Type"
 "@type.definition": "- color_error"
-"@type.qualifier": "- color_error"
+"@type.qualifier": "color_lvl_4 -"
 "@variable": "color_lvl_1 -"
 "@variable.builtin": "color_lvl_1 -"
 

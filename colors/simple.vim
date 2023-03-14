@@ -69,12 +69,13 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi Constant guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Identifier guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Conditional guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Label guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Operator guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Keyword guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Keyword guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Exception guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Type guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Type guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Special guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -82,9 +83,12 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi Todo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi FloatTitle guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NormalFloat guifg=#c6c6c6 ctermfg=251 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
+  hi LspReferenceRead guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+  hi LspReferenceText guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+  hi LspReferenceWrite guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
   hi FloatBorder guifg=#c6c6c6 ctermfg=251 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
   hi @annotation guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-  hi @attribute guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+  hi @attribute guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @boolean Boolean
   hi @character guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
   hi @character.special guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
@@ -147,7 +151,7 @@ let g:simple_bold = get(g:, '_bold', 0)
   hi link @type Type
   hi link @type.builtin Type
   hi @type.definition guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-  hi @type.qualifier guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+  hi @type.qualifier guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi @variable guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi @variable.builtin guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi StartifyBracket guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
