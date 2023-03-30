@@ -46,48 +46,48 @@ VisualNOS: "color_lvl_0 color_selection"
 WarningMsg: "color_error -"
 WildMenu: "color_bg color_highlight"
 # BASE SYNTAX
-Comment: "color_comment -"
-Constant: "color_lvl_4"
-String: "" # Constant
-Character: "" # Constant
 Boolean: "" # Constant
-Number: "" # Constant
-Float: "" # Constant
-Identifier: "color_lvl_4 -"
-Function: "" # Identifier
-Statement: "color_lvl_1 -"
+Character: "" # Constant
+Comment: "color_comment -"
 Conditional: "color_lvl_3 -" # Statement
-Repeat: "" # Statement
-Label: "color_highlight -" # Statement
-Operator: "color_lvl_2 -" # Statement
-Keyword: "color_lvl_2 -" # Statement
-Exception: "color_highlight -" # Statement
-PreProc: "color_highlight -"
-Include: "" # PreProc
+Constant: "color_lvl_4"
+Debug: "" # Special
 Define: "" # PreProc
+Delimiter: "color_lvl_2 -" # Special
+Error: ""
+Exception: "color_highlight -" # Statement
+Float: "" # Constant
+Function: "" # Identifier
+Identifier: "color_lvl_4 -"
+Ignore: ""
+Include: "" # PreProc
+Keyword: "color_lvl_2 -" # Statement
+Label: "color_highlight -" # Statement
 Macro: "" # PreProc
+Number: "" # Constant
+Operator: "color_lvl_2 -" # Statement
 PreCondit: "" # PreProc
-Type: "color_lvl_3 -"
-StorageClass: "" # Type
-Structure: "" # Type
-Typedef: "" # Type
+PreProc: "color_highlight -"
+Repeat: "" # Statement
 Special: "color_highlight -"
 SpecialChar: "" # Special
-Tag: "color_lvl_1 -" # Special
-Delimiter: "color_lvl_2 -" # Special
 SpecialComment: "" # Special
-Debug: "" # Special
-Underlined: "color_highlight - u"
-Ignore: ""
-Error: ""
+Statement: "color_lvl_1 -"
+StorageClass: "" # Type
+String: "" # Constant
+Structure: "" # Type
+Tag: "color_lvl_1 -" # Special
 Todo: "color_highlight -"
+Type: "color_lvl_3 -"
+Typedef: "" # Type
+Underlined: "color_highlight - u"
 
 # Nvim/LSP
 FloatTitle: "color_lvl_4 -"
-NormalFloat: "color_lvl_3 color_bg"
 LspReferenceRead: "color_lvl_3 color_lvl_0"
 LspReferenceText: "color_lvl_3 color_lvl_0"
 LspReferenceWrite: "color_lvl_3 color_lvl_0"
+NormalFloat: "color_lvl_3 color_bg"
 
 # Dressing
 FloatBorder: "color_lvl_3 color_bg"
@@ -167,19 +167,22 @@ FloatBorder: "color_lvl_3 color_bg"
 "@variable.builtin": "color_lvl_1 -"
 
 # mhinz/vim-startify
-StartifyBracket: "color_highlight -"
-StartifyFile: "color_lvl_4 -"
 # StartifyFooter: ''
 # StartifyHeader: ''
 # StartifyNumber: ''
-StartifyPath: "color_lvl_2 -"
 # StartifySelect: ''
-StartifySlash: "color_highlight -"
 # StartifySpecial: ''
 # StartifyVar: ''
+StartifyBracket: "color_highlight -"
+StartifyFile: "color_lvl_4 -"
+StartifyPath: "color_lvl_2 -"
+StartifySlash: "color_highlight -"
 startifySection: "color_lvl_2 -"
 
 # tpope/vim-fugitive
+diffAdded: "color_highlight -"
+diffChanged: "color_lvl_4 -"
+diffRemoved: "color_error -"
 fugitiveCount: ""
 fugitiveHash: "color_lvl_4 -"
 fugitiveHeader: "@Label"
@@ -193,9 +196,6 @@ fugitiveUnstagedModifier: "color_lvl_4 -"
 fugitiveUnstagedSection: ""
 fugitiveUntrackedHeading: "color_error -"
 fugitiveUntrackedModifier: "color_lvl_4 -"
-diffRemoved: "color_error -"
-diffAdded: "color_highlight -"
-diffChanged: "color_lvl_4 -"
 
 #NERDTree
 NERDTreeCWD: "color_lvl_2 -"
@@ -228,8 +228,8 @@ CocMenuSel: "color_highlight color_lvl_1"
 CocSearch: "color_highlight -"
 
 # kamykn/spelunker.vim
-SpelunkerSpellBad: "color_lvl_5 color_error"
 SpelunkerComplexOrCompoundWord: "color_lvl_5 color_error"
+SpelunkerSpellBad: "color_lvl_5 color_error"
 
 # qf
 qfFileName: "color_lvl_4 -"
@@ -239,18 +239,18 @@ qfLineNr: "color_highlight -"
 TelescopeSelection: "color_lvl_4 color_lvl_0"
 
 # Mason
-MasonNormal: "color_lvl_4 color_bg"
+MasonError: "color_error -"
 MasonHeader: "color_highlight -"
 MasonHeaderSecondary: "color_highlight -"
+MasonHeading: "color_highlight -"
 MasonHighlight: "color_highlight -"
 MasonHighlightBlock: "color_bg color_selection"
 MasonHighlightBlockBold: "color_bg color_highlight b"
-MasonHighlightSecondary: "color_highlight -"
-MasonHighlightBlockSecondary: "color_bg color_selection"
 MasonHighlightBlockBoldSecondary: "color_bg color_highlight b"
+MasonHighlightBlockSecondary: "color_bg color_selection"
+MasonHighlightSecondary: "color_highlight -"
 MasonLink: "- color_lvl_3 u"
 MasonMuted: ""
 MasonMutedBlock: "color_bg color_selection"
 MasonMutedBlockBold: "color_bg color_selection b"
-MasonError: "color_error -"
-MasonHeading: "color_highlight -"
+MasonNormal: "color_lvl_4 color_bg"
