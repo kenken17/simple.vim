@@ -199,9 +199,9 @@ fugitiveUntrackedModifier: "color_lvl_4 -"
 
 FugitiveblameDelimiter: "color_lvl_4 -"
 FugitiveblameNotCommittedYet: "color_error -"
-FugitiveblameUncommitted: "color_error -"
-FugitiveblameTime: "color_lvl_4 -"
 FugitiveblameShort: "color_highlight -"
+FugitiveblameTime: "color_lvl_4 -"
+FugitiveblameUncommitted: "color_error -"
 
 #NERDTree
 NERDTreeCWD: "color_lvl_2 -"
