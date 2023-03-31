@@ -139,7 +139,7 @@ FloatBorder: "color_lvl_3 color_bg"
 "@string.escape": "color_highlight_dim -"
 "@string.regex": "color_highlight_dim -"
 "@string.special": "@String"
-"@symbol": "- color_error"
+"@symbol": "color_lvl_3 -"
 "@tag": "@Tag"
 "@tag.attribute": "color_highlight -"
 "@tag.delimiter": "@Delimiter"
@@ -196,6 +196,12 @@ fugitiveUnstagedModifier: "color_lvl_4 -"
 fugitiveUnstagedSection: ""
 fugitiveUntrackedHeading: "color_error -"
 fugitiveUntrackedModifier: "color_lvl_4 -"
+
+FugitiveblameDelimiter: "color_lvl_4 -"
+FugitiveblameNotCommittedYet: "color_error -"
+FugitiveblameUncommitted: "color_error -"
+FugitiveblameTime: "color_lvl_4 -"
+FugitiveblameShort: "color_highlight -"
 
 #NERDTree
 NERDTreeCWD: "color_lvl_2 -"
@@ -254,3 +260,6 @@ MasonMuted: ""
 MasonMutedBlock: "color_bg color_selection"
 MasonMutedBlockBold: "color_bg color_selection b"
 MasonNormal: "color_lvl_4 color_bg"
+
+# LSP Signature
+"LspSignatureActiveParameter": "color_bg color_highlight"
