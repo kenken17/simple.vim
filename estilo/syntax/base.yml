@@ -8,7 +8,7 @@ CursorLine: "- - u"
 CursorLineNr: "color_highlight -"
 Directory: "color_lvl_2 -"
 DiffAdd: "color_bg color_highlight"
-DiffChange: "color_lvl_4 -"
+DiffChange: "- -"
 DiffDelete: "color_lvl_4 color_error"
 DiffText: "color_bg color_highlight"
 ErrorMsg: "color_error -"
@@ -263,3 +263,7 @@ MasonNormal: "color_lvl_4 color_bg"
 
 # LSP Signature
 "LspSignatureActiveParameter": "color_bg color_highlight"
+
+# Gitsigns
+GitSignsChange: "color_comment  -"
+GitSignsCurrentLineBlame: "color_comment -"
