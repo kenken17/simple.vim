@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/04/03 23:45
+" Last Change: 2023/04/04 12:16
 " ===============================================================
 
 set background=dark
@@ -85,6 +85,8 @@ hi Tag guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi ActiveWindow guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
+hi InactiveWindow guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi FloatTitle guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspReferenceRead guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi LspReferenceText guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE

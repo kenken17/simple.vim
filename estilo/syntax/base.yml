@@ -81,6 +81,8 @@ Todo: "color_highlight -"
 Type: "color_lvl_3 -"
 Typedef: "" # Type
 Underlined: "color_highlight - u"
+ActiveWindow: "- color_bg"
+InactiveWindow: "- color_column"
 
 # Nvim/LSP
 FloatTitle: "color_lvl_4 -"
