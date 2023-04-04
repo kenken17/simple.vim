@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/04/04 12:16
+" Last Change: 2023/04/04 18:08
 " ===============================================================
 
 set background=dark
@@ -28,6 +28,7 @@ endif
 
 let g:simple_bold = get(g:, 'simple_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi CurSearch guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi Cursor guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=#ffffff ctermfg=15 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -37,6 +38,7 @@ hi DiffAdd guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#eeeeee ctermfg=255 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi DiffText guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
+hi EndOfBuffer guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#a8a8a8 ctermfg=248 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
