@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/04/04 18:08
+" Last Change: 2023/07/26 17:42
 " ===============================================================
 
 set background=dark
@@ -31,7 +31,7 @@ hi ColorColumn guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=
 hi CurSearch guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi Cursor guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=#ffffff ctermfg=15 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Directory guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
@@ -99,7 +99,7 @@ hi @annotation guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=
 hi @attribute guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link @boolean Boolean
 hi @character guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-hi @character.special guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+hi @character.special guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link @comment Comment
 hi link @conditional Conditional
 hi link @constant Constant
@@ -143,7 +143,7 @@ hi link @tag Tag
 hi @tag.attribute guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link @tag.delimiter Delimiter
 hi @text.danger guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-hi @text.emphasis guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+hi @text.emphasis guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @text.environment guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.environment.name guifg=NONE ctermfg=NONE guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.literal guifg=#949494 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
