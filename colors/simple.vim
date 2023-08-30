@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/07/26 17:42
+" Last Change: 2023/08/31 01:55
 " ===============================================================
 
 set background=dark
@@ -37,7 +37,7 @@ hi Directory guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi DiffAdd guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#eeeeee ctermfg=255 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-hi DiffText guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
+hi DiffText guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
