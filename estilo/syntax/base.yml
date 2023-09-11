@@ -39,6 +39,7 @@ SpellCap: "- color_error"
 SpellRare: "- color_error"
 StatusLine: ""
 StatusLineNC: ""
+Syntax: "color_error -"
 TabLine: "color_lvl_2 -"
 TabLineFill: "color_fg -"
 TabLineSel: "color_bg color_highlight"
@@ -212,7 +213,7 @@ FugitiveblameShort: "color_highlight -"
 FugitiveblameTime: "color_lvl_4 -"
 FugitiveblameUncommitted: "color_error -"
 
-#NERDTree
+# NERDTree
 NERDTreeCWD: "color_lvl_2 -"
 NERDTreeClosable: "color_highlight -"
 NERDTreeDir: "color_lvl_2 -"
@@ -271,7 +272,7 @@ MasonMutedBlockBold: "color_bg color_selection b"
 MasonNormal: "color_lvl_4 color_bg"
 
 # LSP Signature
-"LspSignatureActiveParameter": "color_bg color_highlight"
+LspSignatureActiveParameter: "color_highlight -"
 
 # Gitsigns
 GitSignsChange: "color_comment  -"
