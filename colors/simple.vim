@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/10/01 22:45
+" Last Change: 2023/10/01 23:00
 " ===============================================================
 
 set background=dark
@@ -195,7 +195,9 @@ hi NERDTreeLinkDir guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE ct
 hi NERDTreeLinkFile guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeLinkTarget guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeSymlink guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeSymlink guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeExecFile guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeSpecialFile guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeOpenedFile guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeCopiedHL guifg=#3a3a3a ctermfg=237 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi NvimTreeCutHL guifg=#eeeeee ctermfg=255 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE

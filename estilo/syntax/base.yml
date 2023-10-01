@@ -226,7 +226,9 @@ NERDTreeLinkTarget: "color_highlight -"
 NERDTreeOpenable: "color_lvl_2 -"
 
 # nvim-tree
-NvimTreeSymlink: "color_highlight -"
+NvimTreeSymlink: "color_lvl_4 -"
+NvimTreeExecFile: "color_highlight -"
+NvimTreeSpecialFile: "color_error -"
 NvimTreeOpenedFile: "color_error -"
 NvimTreeCopiedHL: "color_lvl_0 color_highlight"
 NvimTreeCutHL: "color_lvl_4 color_error"
