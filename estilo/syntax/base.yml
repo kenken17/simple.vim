@@ -225,6 +225,16 @@ NERDTreeLinkFile: "color_lvl_1 -"
 NERDTreeLinkTarget: "color_highlight -"
 NERDTreeOpenable: "color_lvl_2 -"
 
+# nvim-tree
+NvimTreeSymlink: "color_highlight -"
+NvimTreeOpenedFile: "color_error -"
+NvimTreeCopiedHL: "color_lvl_0 color_highlight"
+NvimTreeCutHL: "color_lvl_4 color_error"
+NvimTreeModifiedFile: "color_highlight -"
+NvimTreeRootFolder: "color_error -"
+NvimTreeGitDirty: "color_highlight -"
+NvimTreeGitNew: "color_error -"
+
 # Agit
 agitDiffAdd: "color_highlight -"
 agitDiffFileName: "color_lvl_4 -"
