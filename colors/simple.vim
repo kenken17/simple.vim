@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/10/01 23:00
+" Last Change: 2023/10/16 17:04
 " ===============================================================
 
 set background=dark
@@ -36,7 +36,7 @@ hi CursorLineNr guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi Directory guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffDelete guifg=#eeeeee ctermfg=255 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+hi DiffDelete guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi DiffText guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -243,6 +243,9 @@ hi LspSignatureActiveParameter guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE
 hi GitSignsChange guifg=#546700 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsCurrentLineBlame guifg=#546700 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticInfo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpectreUI guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpectreDiffChange guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+hi SpectreDiffDelete guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)

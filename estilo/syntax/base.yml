@@ -10,7 +10,7 @@ CursorLineNr: "color_highlight -"
 Directory: "color_lvl_2 -"
 DiffAdd: "color_bg color_highlight"
 DiffChange: "- -"
-DiffDelete: "color_lvl_4 color_error"
+DiffDelete: "color_lvl_5 color_error"
 DiffText: "color_bg color_lvl_3"
 EndOfBuffer: "- -"
 ErrorMsg: "color_error -"
@@ -293,3 +293,8 @@ GitSignsCurrentLineBlame: "color_comment -"
 
 # todo-comments
 DiagnosticInfo: "color_highlight -"
+
+# vim-spectre
+SpectreUI: "color_highlight -"
+SpectreDiffChange: "color_lvl_5 color_error"
+SpectreDiffDelete: "color_bg color_highlight"
