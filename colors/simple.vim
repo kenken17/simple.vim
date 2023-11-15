@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/10/16 17:04
+" Last Change: 2023/11/15 01:18
 " ===============================================================
 
 set background=dark
@@ -246,6 +246,9 @@ hi DiagnosticInfo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cte
 hi SpectreUI guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpectreDiffChange guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi SpectreDiffDelete guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
+hi @neorg.markup.bold guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @neorg.markup.verbatim guifg=NONE ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+hi @neorg.links.description guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)

@@ -298,3 +298,8 @@ DiagnosticInfo: "color_highlight -"
 SpectreUI: "color_highlight -"
 SpectreDiffChange: "color_lvl_5 color_error"
 SpectreDiffDelete: "color_bg color_highlight"
+
+# neorg
+"@neorg.markup.bold": "color_lvl_4 color_bg b"
+"@neorg.markup.verbatim": "- color_lvl_0"
+"@neorg.links.description": "color_lvl_4 - u"
