@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/11/15 01:18
+" Last Change: 2023/11/18 22:02
 " ===============================================================
 
 set background=dark
@@ -249,6 +249,12 @@ hi SpectreDiffDelete guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE 
 hi @neorg.markup.bold guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
 hi @neorg.markup.verbatim guifg=NONE ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi @neorg.links.description guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi @neorg.todo_items.done guifg=#afd700 ctermfg=148 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @neorg.todo_items.pending guifg=#949494 ctermfg=246 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @neorg.todo_items.on_hold guifg=#dfff00 ctermfg=190 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @neorg.todo_items.urgent guifg=#d70000 ctermfg=160 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @neorg.todo_items.cancelled guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @neorg.todo_items.recurring guifg=#00afff ctermfg=39 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
