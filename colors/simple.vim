@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2023/12/28 15:59
+" Last Change: 2023/12/31 02:51
 " ===============================================================
 
 set background=dark
@@ -28,6 +28,7 @@ endif
 
 let g:simple_bold = get(g:, 'simple_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CurSearch guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi Cursor guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=#ffffff ctermfg=15 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
@@ -102,6 +103,7 @@ hi link @boolean Boolean
 hi @character guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @character.special guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link @comment Comment
+hi link @conceal Conceal
 hi link @conditional Conditional
 hi link @constant Constant
 hi link @constant.builtin Constant
@@ -144,15 +146,25 @@ hi link @tag Tag
 hi @tag.attribute guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link @tag.delimiter Delimiter
 hi @text.danger guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-hi @text.emphasis guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @text.emphasis guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Italic cterm=Italic
 hi @text.environment guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.environment.name guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-hi @text.literal guifg=#949494 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @text.literal guifg=NONE ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi @text.math guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.note guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.strike guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-hi @text.strong guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=Bold cterm=Bold
+hi @text.strong guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
 hi link @text.title Title
+hi @text.title.1 guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.1.marker guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.2 guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.2.marker guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.3 guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.3.marker guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.4 guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.4.marker guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.5 guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @text.title.5.marker guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi link @text.todo Todo
 hi @text.underline guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @text.uri guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
