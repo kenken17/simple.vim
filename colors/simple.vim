@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/01/25 12:21
+" Last Change: 2024/02/28 11:19
 " ===============================================================
 
 set background=dark
@@ -88,7 +88,7 @@ hi Operator guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi PreProc guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Tag guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link Tag Special
 hi Todo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -298,6 +298,18 @@ hi @neorg.tags.ranged_verbatim.end guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=
 hi @neorg.tags.ranged_verbatim.parameters guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @neorg.tags.ranged_verbatim.name.word guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IblIndent guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberUnparsed guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberGiven guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberWhen guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberThen guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberAnd guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberGivenRegion guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberWhenRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberThenRegion guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberWhenTable guifg=#00afff ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberThenTable guifg=#00afff ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberWhenAndRegion guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberThenAndRegion guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)

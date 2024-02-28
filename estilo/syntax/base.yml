@@ -87,7 +87,7 @@ Statement: "color_lvl_1 -"
 StorageClass: "" # Type
 String: "" # Constant
 Structure: "" # Type
-Tag: "color_lvl_1 -" # Special
+Tag: "@Special" # Special
 Todo: "color_highlight -"
 Type: "color_lvl_3 -"
 Typedef: "" # Type
@@ -355,3 +355,17 @@ SpectreDiffDelete: "color_bg color_highlight"
 
 # blankline
 "IblIndent": "color_lvl_0 -"
+
+# cucumber
+"cucumberUnparsed": "color_lvl_4 -"
+"cucumberGiven": "color_highlight -"
+"cucumberWhen": "color_highlight -"
+"cucumberThen": "color_highlight -"
+"cucumberAnd": "color_highlight -"
+"cucumberGivenRegion": "color_lvl_1 -"
+"cucumberWhenRegion": "color_lvl_2 -"
+"cucumberThenRegion": "color_lvl_3 -"
+"cucumberWhenTable": "color_cerulean -"
+"cucumberThenTable": "color_cerulean -"
+"cucumberWhenAndRegion": "color_lvl_5 -"
+"cucumberThenAndRegion": "color_lvl_5 -"
