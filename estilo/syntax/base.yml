@@ -1,3 +1,4 @@
+---
 # BASE UI
 ColorColumn: "- color_column"
 Conceal: "- -"
@@ -61,14 +62,14 @@ Boolean: "" # Constant
 Character: "" # Constant
 Comment: "color_comment -"
 Conditional: "color_lvl_3 -" # Statement
-Constant: "color_lvl_4"
+Constant: "color_lvl_4 -"
 Debug: "" # Special
 Define: "" # PreProc
 Delimiter: "color_lvl_2 -" # Special
 Error: ""
 Exception: "color_highlight -" # Statement
 Float: "" # Constant
-Function: "" # Identifier
+Function: "color_highlight -" # Identifier
 Identifier: "color_lvl_4 -"
 Ignore: ""
 Include: "" # PreProc
@@ -85,9 +86,9 @@ SpecialChar: "" # Special
 SpecialComment: "" # Special
 Statement: "color_lvl_1 -"
 StorageClass: "" # Type
-String: "" # Constant
+String: "@Constant"
 Structure: "" # Type
-Tag: "@Special" # Special
+Tag: "@Special"
 Todo: "color_highlight -"
 Type: "color_lvl_3 -"
 Typedef: "" # Type
@@ -163,7 +164,7 @@ FloatBorder: "color_lvl_3 color_bg"
 "@spell": ""
 "@storageclass": "color_lvl_5 color_error"
 "@keyword.storage": "color_lvl_5 color_error"
-"@string": "@String"
+"@string": "@Constant"
 "@string.escape": "color_highlight_dim -"
 "@string.regex": "color_highlight_dim -"
 "@string.regexp": "color_highlight_dim -"
@@ -326,8 +327,18 @@ MasonNormal: "color_lvl_4 color_bg"
 LspSignatureActiveParameter: "color_highlight -"
 
 # Gitsigns
-GitSignsChange: "color_comment  -"
 GitSignsCurrentLineBlame: "color_comment -"
+
+GitSignsAdd: "color_highlight -"
+GitSignsAddNr: "color_bg color_highlight"
+GitSignsChange: "color_lvl_3 -"
+GitSignsChangeNr: "color_bg color_lvl_3"
+GitSignsChangedelete: "color_error -"
+GitSignsChangedeleteNr: "color_bg color_error"
+GitSignsDelete: "color_error -"
+GitSignsDeleteNr: "color_lvl_3 color_error"
+GitSignsTopdelete: "color_error -"
+GitSignsTopdeleteNr: "color_lvl_3 color_error"
 
 # todo-comments
 DiagnosticInfo: "color_highlight -"

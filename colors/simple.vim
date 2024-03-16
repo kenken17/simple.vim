@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/02/28 11:19
+" Last Change: 2024/03/16 17:33
 " ===============================================================
 
 set background=dark
@@ -81,6 +81,7 @@ hi Conditional guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi Constant guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Function guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -88,6 +89,7 @@ hi Operator guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi PreProc guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link String Constant
 hi link Tag Special
 hi Todo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -153,7 +155,7 @@ hi link @repeat Conditional
 hi link @keyword.repeat Conditional
 hi @storageclass guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @keyword.storage guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
-hi link @string String
+hi link @string Constant
 hi @string.escape guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @string.regex guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @string.regexp guifg=#87a600 ctermfg=106 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -277,8 +279,17 @@ hi MasonMutedBlock guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE ct
 hi MasonMutedBlockBold guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=Bold cterm=Bold
 hi MasonNormal guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
 hi LspSignatureActiveParameter guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsChange guifg=#546700 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsCurrentLineBlame guifg=#546700 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsAdd guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsAddNr guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
+hi GitSignsChange guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsChangeNr guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
+hi GitSignsChangedelete guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsChangedeleteNr guifg=#000000 ctermfg=0 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+hi GitSignsDelete guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsDeleteNr guifg=#c6c6c6 ctermfg=251 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+hi GitSignsTopdelete guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsTopdeleteNr guifg=#c6c6c6 ctermfg=251 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi DiagnosticInfo guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpectreUI guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpectreDiffChange guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
