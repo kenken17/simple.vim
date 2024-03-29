@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/03/16 17:33
+" Last Change: 2024/03/20 11:05
 " ===============================================================
 
 set background=dark
@@ -315,12 +315,14 @@ hi cucumberWhen guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi cucumberThen guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberAnd guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberGivenRegion guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cucumberWhenRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cucumberThenRegion guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberGivenAndRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberWhenRegion guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberWhenAndRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberThenRegion guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberThenAndRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberAndRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberWhenTable guifg=#00afff ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberThenTable guifg=#00afff ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cucumberWhenAndRegion guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cucumberThenAndRegion guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
