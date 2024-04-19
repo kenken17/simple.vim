@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/03/20 11:05
+" Last Change: 2024/04/19 20:46
 " ===============================================================
 
 set background=dark
@@ -50,7 +50,7 @@ hi FoldColumn guifg=#a8a8a8 ctermfg=248 guibg=#3a3a3a ctermbg=237 gui=NONE cterm
 hi SignColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi LineNr guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=#eeeeee ctermfg=255 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+hi MatchParen guifg=#dfff00 ctermfg=190 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ModeMsg guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -279,7 +279,7 @@ hi MasonMutedBlock guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=NONE ct
 hi MasonMutedBlockBold guifg=#000000 ctermfg=0 guibg=#c6c6c6 ctermbg=251 gui=Bold cterm=Bold
 hi MasonNormal guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
 hi LspSignatureActiveParameter guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsCurrentLineBlame guifg=#546700 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link GitSignsCurrentLineBlame Comment
 hi GitSignsAdd guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsAddNr guifg=#000000 ctermfg=0 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi GitSignsChange guifg=#c6c6c6 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -310,6 +310,7 @@ hi @neorg.tags.ranged_verbatim.parameters guifg=#3a3a3a ctermfg=237 guibg=NONE c
 hi @neorg.tags.ranged_verbatim.name.word guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IblIndent guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberUnparsed guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cucumberTags guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberGiven guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberWhen guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberThen guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

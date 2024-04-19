@@ -24,7 +24,7 @@ FoldColumn: "color_lvl_2 color_lvl_0"
 SignColumn: "- -"
 IncSearch: "color_bg color_highlight"
 LineNr: "color_lvl_1 -"
-MatchParen: "color_lvl_4 color_lvl_0"
+MatchParen: "color_neo_yellow -"
 ModeMsg: "color_lvl_3 -"
 MoreMsg: "color_lvl_3 -"
 NonText: "color_lvl_3 -"
@@ -327,7 +327,7 @@ MasonNormal: "color_lvl_4 color_bg"
 LspSignatureActiveParameter: "color_highlight -"
 
 # Gitsigns
-GitSignsCurrentLineBlame: "color_comment -"
+GitSignsCurrentLineBlame: "@Comment"
 
 GitSignsAdd: "color_highlight -"
 GitSignsAddNr: "color_bg color_highlight"
@@ -369,6 +369,7 @@ SpectreDiffDelete: "color_bg color_highlight"
 
 # cucumber
 "cucumberUnparsed": "color_lvl_4 -"
+"cucumberTags": "color_highlight -"
 "cucumberGiven": "color_highlight -"
 "cucumberWhen": "color_highlight -"
 "cucumberThen": "color_highlight -"
