@@ -1,4 +1,3 @@
----
 # BASE UI
 ColorColumn: "- color_column"
 Conceal: "- -"
@@ -95,17 +94,14 @@ Typedef: "" # Type
 Underlined: "color_highlight - u"
 ActiveWindow: "- color_bg"
 InactiveWindow: "- color_column"
-
 # Nvim/LSP
 FloatTitle: "color_lvl_4 -"
 LspReferenceRead: "color_lvl_3 color_lvl_0"
 LspReferenceText: "color_lvl_3 color_lvl_0"
 LspReferenceWrite: "color_lvl_3 color_lvl_0"
 NormalFloat: "color_lvl_3 color_bg"
-
 # Dressing
 FloatBorder: "color_lvl_3 color_bg"
-
 # Treesitter
 "@annotation": "color_lvl_5 color_error"
 "@attribute": "color_highlight -"
@@ -214,7 +210,6 @@ FloatBorder: "color_lvl_3 color_bg"
 "@type.qualifier": "color_lvl_4 -"
 "@variable": "color_lvl_1 -"
 "@variable.builtin": "color_lvl_1 -"
-
 # mhinz/vim-startify
 # StartifyFooter: ''
 # StartifyHeader: ''
@@ -227,7 +222,6 @@ StartifyFile: "color_lvl_4 -"
 StartifyPath: "color_lvl_2 -"
 StartifySlash: "color_highlight -"
 startifySection: "color_lvl_2 -"
-
 # tpope/vim-fugitive
 diffAdded: "color_highlight -"
 diffChanged: "color_lvl_4 -"
@@ -245,13 +239,11 @@ fugitiveUnstagedModifier: "color_lvl_4 -"
 fugitiveUnstagedSection: ""
 fugitiveUntrackedHeading: "color_error -"
 fugitiveUntrackedModifier: "color_lvl_4 -"
-
 FugitiveblameDelimiter: "color_lvl_4 -"
 FugitiveblameNotCommittedYet: "color_error -"
 FugitiveblameShort: "color_highlight -"
 FugitiveblameTime: "color_lvl_4 -"
 FugitiveblameUncommitted: "color_error -"
-
 # NERDTree
 NERDTreeCWD: "color_lvl_2 -"
 NERDTreeClosable: "color_highlight -"
@@ -263,7 +255,6 @@ NERDTreeLinkDir: "color_lvl_3 -"
 NERDTreeLinkFile: "color_lvl_1 -"
 NERDTreeLinkTarget: "color_highlight -"
 NERDTreeOpenable: "color_lvl_2 -"
-
 # nvim-tree
 NvimTreeSymlink: "color_lvl_4 -"
 NvimTreeExecFile: "color_highlight -"
@@ -275,7 +266,6 @@ NvimTreeModifiedFile: "color_highlight -"
 NvimTreeRootFolder: "color_error -"
 NvimTreeGitDirty: "color_highlight -"
 NvimTreeGitNew: "color_error -"
-
 # Agit
 agitDiffAdd: "color_highlight -"
 agitDiffFileName: "color_lvl_4 -"
@@ -287,25 +277,20 @@ agitRemote: "color_lvl_4 -"
 agitStatAdded: "color_highlight -"
 agitStatRemoved: "color_error -"
 agitTag: "color_lvl_4 -"
-
 # COC
 CocListLine: "color_lvl_0 color_selection"
 CocListSearch: "color_highlight -"
 CocMenuSel: "color_highlight color_lvl_1"
 CocSearch: "color_highlight -"
-
 # kamykn/spelunker.vim
 SpelunkerComplexOrCompoundWord: "color_lvl_5 color_error"
 SpelunkerSpellBad: "color_lvl_5 color_error"
-
 # qf
 qfFileName: "color_lvl_4 -"
 qfLineNr: "color_highlight -"
 qfSeparator: "color_error -"
-
 # Telescope
 TelescopeSelection: "color_lvl_4 color_lvl_0"
-
 # Mason
 MasonError: "color_error -"
 MasonHeader: "color_highlight -"
@@ -322,13 +307,10 @@ MasonMuted: ""
 MasonMutedBlock: "color_bg color_selection"
 MasonMutedBlockBold: "color_bg color_selection b"
 MasonNormal: "color_lvl_4 color_bg"
-
 # LSP Signature
 LspSignatureActiveParameter: "color_highlight -"
-
 # Gitsigns
 GitSignsCurrentLineBlame: "@Comment"
-
 GitSignsAdd: "color_highlight -"
 GitSignsAddNr: "color_bg color_highlight"
 GitSignsChange: "color_lvl_3 -"
@@ -339,15 +321,12 @@ GitSignsDelete: "color_error -"
 GitSignsDeleteNr: "color_lvl_3 color_error"
 GitSignsTopdelete: "color_error -"
 GitSignsTopdeleteNr: "color_lvl_3 color_error"
-
 # todo-comments
 DiagnosticInfo: "color_highlight -"
-
 # vim-spectre
 SpectreUI: "color_highlight -"
 SpectreDiffChange: "color_lvl_5 color_error"
 SpectreDiffDelete: "color_bg color_highlight"
-
 # neorg
 "@neorg.markup.bold": "color_lvl_4 color_bg b"
 "@neorg.markup.verbatim": "- color_lvl_0"
@@ -363,10 +342,8 @@ SpectreDiffDelete: "color_bg color_highlight"
 "@neorg.tags.ranged_verbatim.end": "color_lvl_0 -"
 "@neorg.tags.ranged_verbatim.parameters": "color_lvl_0 -"
 "@neorg.tags.ranged_verbatim.name.word": "color_lvl_0 -"
-
 # blankline
 "IblIndent": "color_lvl_0 -"
-
 # cucumber
 "cucumberUnparsed": "color_lvl_4 -"
 "cucumberTags": "color_highlight -"
@@ -383,3 +360,8 @@ SpectreDiffDelete: "color_bg color_highlight"
 "cucumberAndRegion": "color_lvl_2 -"
 "cucumberWhenTable": "color_cerulean -"
 "cucumberThenTable": "color_cerulean -"
+# Markview
+"MVHeading": "color_highlight color_lvl_0"
+"MVHeadingCorner": "color_lvl_0 color_highlight"
+"MVHeadingWhite": "color_lvl_3 color_lvl_0"
+"MVHeadingCornerWhite": "color_lvl_0 color_lvl_3"

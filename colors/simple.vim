@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/04/19 20:46
+" Last Change: 2024/08/25 23:24
 " ===============================================================
 
 set background=dark
@@ -324,6 +324,10 @@ hi cucumberThenAndRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=N
 hi cucumberAndRegion guifg=#a8a8a8 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberWhenTable guifg=#00afff ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cucumberThenTable guifg=#00afff ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi MVHeading guifg=#afd700 ctermfg=148 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+hi MVHeadingCorner guifg=#3a3a3a ctermfg=237 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
+hi MVHeadingWhite guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+hi MVHeadingCornerWhite guifg=#3a3a3a ctermfg=237 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
