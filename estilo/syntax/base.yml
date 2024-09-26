@@ -59,7 +59,7 @@ WildMenu: "color_bg color_highlight"
 # BASE SYNTAX
 Boolean: "" # Constant
 Character: "" # Constant
-Comment: "color_comment -"
+Comment: "color_comment - i"
 Conditional: "color_lvl_3 -" # Statement
 Constant: "color_lvl_4 -"
 Debug: "" # Special
