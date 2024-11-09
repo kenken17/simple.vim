@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/09/27 01:12
+" Last Change: 2024/11/09 14:29
 " ===============================================================
 
 set background=dark
@@ -328,6 +328,8 @@ hi MVHeading guifg=#afd700 ctermfg=148 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=
 hi MVHeadingCorner guifg=#3a3a3a ctermfg=237 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 hi MVHeadingWhite guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi MVHeadingCornerWhite guifg=#3a3a3a ctermfg=237 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
+hi AvanteConflictCurrent guifg=#3a3a3a ctermfg=237 guibg=#a8a8a8 ctermbg=248 gui=NONE cterm=NONE
+hi AvanteConflictIncoming guifg=#3a3a3a ctermfg=237 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)

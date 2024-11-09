@@ -365,3 +365,6 @@ SpectreDiffDelete: "color_bg color_highlight"
 "MVHeadingCorner": "color_lvl_0 color_highlight"
 "MVHeadingWhite": "color_lvl_3 color_lvl_0"
 "MVHeadingCornerWhite": "color_lvl_0 color_lvl_3"
+#Avante
+"AvanteConflictCurrent": "color_lvl_0 color_lvl_2"
+"AvanteConflictIncoming": "color_lvl_0 color_highlight"
