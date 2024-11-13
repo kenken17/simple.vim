@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/11/09 14:29
+" Last Change: 2024/11/14 00:33
 " ===============================================================
 
 set background=dark
@@ -330,6 +330,20 @@ hi MVHeadingWhite guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE c
 hi MVHeadingCornerWhite guifg=#3a3a3a ctermfg=237 guibg=#c6c6c6 ctermbg=251 gui=NONE cterm=NONE
 hi AvanteConflictCurrent guifg=#3a3a3a ctermfg=237 guibg=#a8a8a8 ctermbg=248 gui=NONE cterm=NONE
 hi AvanteConflictIncoming guifg=#3a3a3a ctermfg=237 guibg=#afd700 ctermbg=148 gui=NONE cterm=NONE
+hi RenderMarkdownLink guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi RenderMarkdownWikiLink guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RenderMarkdownBullet guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi RenderMarkdownDash guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi RenderMarkdownCodeInLine guifg=#a8a8a8 ctermfg=248 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
+hi RenderMarkdownChecked guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi RenderMarkdownUnchecked guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @markup.heading.1.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @markup.heading.2.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @markup.heading.3.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @markup.heading.4.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @markup.heading.5.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @markup.heading.6.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
+hi @markup.link.label.markdown_inline guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
