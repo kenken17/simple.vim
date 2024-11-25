@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/11/14 00:33
+" Last Change: 2024/11/25 13:55
 " ===============================================================
 
 set background=dark
@@ -344,6 +344,7 @@ hi @markup.heading.4.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 
 hi @markup.heading.5.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
 hi @markup.heading.6.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
 hi @markup.link.label.markdown_inline guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @markup.quote.markdown guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
