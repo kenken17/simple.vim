@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/11/25 13:55
+" Last Change: 2024/12/03 09:38
 " ===============================================================
 
 set background=dark
@@ -171,7 +171,6 @@ hi @text.emphasis guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Italic c
 hi @text.environment guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.environment.name guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.literal guifg=NONE ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
-hi @markup.raw guifg=NONE ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi @text.math guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.note guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @text.strike guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
