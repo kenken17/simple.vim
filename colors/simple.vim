@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2024/12/03 09:38
+" Last Change: 2025/02/18 16:18
 " ===============================================================
 
 set background=dark
@@ -197,7 +197,6 @@ hi @string.special.url guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NON
 hi @text.warning guifg=#d70000 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link @type Type
 hi link @type.builtin Type
-hi @type.definition guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @type.qualifier guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable.builtin guifg=#808080 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -344,6 +343,10 @@ hi @markup.heading.5.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 
 hi @markup.heading.6.markdown guifg=#eeeeee ctermfg=255 guibg=#000000 ctermbg=0 gui=Bold cterm=Bold
 hi @markup.link.label.markdown_inline guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.quote.markdown guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi @keyword.graphql guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @keyword.type.graphql guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @type.graphql guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @variable.parameter.graphql variable
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
