@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2025/02/18 16:18
+" Last Change: 2025/06/17 21:56
 " ===============================================================
 
 set background=dark
@@ -113,7 +113,7 @@ hi link @conditional Conditional
 hi link @keyword.conditional Conditional
 hi link @constant Constant
 hi link @constant.builtin Constant
-hi @constant.macro guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
+hi @constant.macro guifg=#ffffff ctermfg=15 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi @constructor guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @debug guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @keyword.debug guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
