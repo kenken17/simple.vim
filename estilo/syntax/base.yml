@@ -101,7 +101,7 @@ LspReferenceText: "color_lvl_3 color_lvl_0"
 LspReferenceWrite: "color_lvl_3 color_lvl_0"
 NormalFloat: "color_lvl_3 color_bg"
 # Dressing
-FloatBorder: "color_lvl_3 color_bg"
+FloatBorder: "color_lvl_2 color_bg"
 # Treesitter
 "@annotation": "color_lvl_5 color_error"
 "@attribute": "color_highlight -"

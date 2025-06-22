@@ -4,7 +4,7 @@
 " URL: https://github.com/kenken17/simple.vim.git
 " Author: kenken17@gmail.com
 " License: MIT
-" Last Change: 2025/06/17 21:56
+" Last Change: 2025/06/22 22:21
 " ===============================================================
 
 set background=dark
@@ -101,7 +101,7 @@ hi LspReferenceRead guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE
 hi LspReferenceText guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi LspReferenceWrite guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 hi NormalFloat guifg=#c6c6c6 ctermfg=251 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
-hi FloatBorder guifg=#c6c6c6 ctermfg=251 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
+hi FloatBorder guifg=#a8a8a8 ctermfg=248 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
 hi @annotation guifg=#ffffff ctermfg=15 guibg=#d70000 ctermbg=160 gui=NONE cterm=NONE
 hi @attribute guifg=#afd700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link @boolean Boolean
